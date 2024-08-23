@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "dgSpecHash": "lGizAnb2a18jUmpKP0c2AelrXHHvFbi/FtPeX4ovxRjgcrbzZLbxPaO/sm/Y6g55HfBIimaU/wY4FCB2Q2yNwg==",
+  "success": true,
+  "projectFilePath": "/home/ubuntu/MyPrometheusApp/MyPrometheusApp.csproj",
+  "expectedPackageFiles": [
+    "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.openapi/8.0.8/microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.fileproviders.abstractions/2.1.0/microsoft.extensions.fileproviders.abstractions.2.1.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.hosting.abstractions/2.1.0/microsoft.extensions.hosting.abstractions.2.1.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.http/3.1.9/microsoft.extensions.http.3.1.9.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.logging.configuration/8.0.0/microsoft.extensions.logging.configuration.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry/1.9.0/opentelemetry.1.9.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry.api/1.9.0/opentelemetry.api.1.9.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry.api.providerbuilderextensions/1.9.0/opentelemetry.api.providerbuilderextensions.1.9.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry.exporter.console/1.9.0/opentelemetry.exporter.console.1.9.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry.exporter.prometheus.aspnetcore/1.9.0-beta.2/opentelemetry.exporter.prometheus.aspnetcore.1.9.0-beta.2.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry.extensions.hosting/1.6.0/opentelemetry.extensions.hosting.1.6.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry.instrumentation.aspnetcore/1.6.0/opentelemetry.instrumentation.aspnetcore.1.6.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/opentelemetry.instrumentation.http/1.6.0/opentelemetry.instrumentation.http.1.6.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/prometheus-net/6.0.0/prometheus-net.6.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/prometheus-net.aspnetcore/6.0.0/prometheus-net.aspnetcore.6.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTelemetry.Instrumentation.AspNetCore' 1.6.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
+      "libraryId": "OpenTelemetry.Instrumentation.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTelemetry.Instrumentation.Http' 1.6.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vh2m-22xx-q94f",
+      "libraryId": "OpenTelemetry.Instrumentation.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

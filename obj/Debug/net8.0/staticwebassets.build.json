@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gxUl7trPOVhPSm4mPd2lpw7CJxbNBYLDjTmoWdO9YGU=",
+  "Source": "MyPrometheusApp",
+  "BasePath": "_content/MyPrometheusApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

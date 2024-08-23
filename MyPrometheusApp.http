@@ -1,0 +1,6 @@
+@MyPrometheusApp_HostAddress = http://localhost:5068
+
+GET {{MyPrometheusApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
