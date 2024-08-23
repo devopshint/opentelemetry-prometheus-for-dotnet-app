@@ -1,6 +1,3 @@
-using System.Globalization;
-
-using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.Metrics;
 using OpenTelemetry.Logs;
 using OpenTelemetry.Metrics;
@@ -13,13 +10,15 @@ using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
 
+const string serviceName = "roll-dice";
+
+
 // Add services to the container.
 builder.Services.AddControllers();
 
 // Create a custom meter for the API
-var meter = new Meter("MyPrometheusApp.Metrics", "1.0");
+var meter = new Meter("roll-dice.Metrics", "1.0");
 
-const string serviceName = "roll-dice";
 
 var httpRequestCounter = meter.CreateCounter<long>("http_requests_total", description: "Total number of HTTP requests");
 
@@ -38,7 +37,7 @@ builder.Services.AddOpenTelemetry()
     .WithTracing(tracerProviderBuilder =>
     {
         tracerProviderBuilder
-            .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("MyPrometheusApp"))
+            .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("roll-dice"))
             .AddAspNetCoreInstrumentation() // Tracks incoming HTTP requests
             .AddHttpClientInstrumentation()
             .AddConsoleExporter(); // Optional: For debugging
@@ -46,7 +45,7 @@ builder.Services.AddOpenTelemetry()
     .WithMetrics(meterProviderBuilder =>
     {
         meterProviderBuilder
-            .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("MyPrometheusApp"))
+            .SetResourceBuilder(ResourceBuilder.CreateDefault().AddService("roll-dice"))
             .AddAspNetCoreInstrumentation() // Tracks incoming HTTP request metrics
             .AddHttpClientInstrumentation()
             .AddPrometheusExporter(); // Expose metrics to Prometheus
